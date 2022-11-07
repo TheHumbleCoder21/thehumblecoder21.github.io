@@ -1,0 +1,60 @@
+
+body {
+    background-image: url(/coffee-beans.jpg);
+    font-family: sans-serif, Verdana, Geneva, Tahoma;
+}
+main {
+    background-color: burlywood;
+    margin: auto 5%;
+}
+header, section {
+    margin: 5%;
+}
+section img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+header p {
+    font-style: italic;
+}
+hr {
+    height: 0.2rem;
+    background-color: brown;
+    border-color: burlywood;
+}
+h1 {
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h2 {
+    text-transform: capitalize;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h1, h2, main p {
+    text-align: center;
+}
+article {
+    display: flex;
+    justify-content: space-between;
+    text-transform: capitalize;
+}
+#footer {
+    padding-bottom: 1%;
+}
+a {
+    color: black;
+  }
+  
+  a:visited {
+    color: black;
+  }
+  
+  a:hover {
+    color: brown;
+  }
+  
+  a:active {
+    color: brown;
+  }
